@@ -10,6 +10,7 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.Align;
+import game.kt.MyGame;
 
 import static me.game.sanxiao.Assests.BASE_HEIGHT;
 import static me.game.sanxiao.Assests.BASE_WIDTH;
@@ -20,7 +21,7 @@ import static me.game.sanxiao.Assests.BASE_WIDTH;
 public class MainMenuScreen extends ScreenAdapter {
 
 
-	SanXiao game;
+	MyGame game;
 	OrthographicCamera guiCam;
 	Vector3 touchPoint;
 	Rectangle playerBounds;
@@ -29,7 +30,7 @@ public class MainMenuScreen extends ScreenAdapter {
 
 	BitmapFont font;
 
-	public MainMenuScreen(SanXiao game) {
+	public MainMenuScreen(MyGame game) {
 		this.game = game;
 
 		guiCam = new OrthographicCamera(BASE_WIDTH, BASE_HEIGHT);
@@ -71,9 +72,6 @@ public class MainMenuScreen extends ScreenAdapter {
 
 		guiCam.update();
 		game.batch.setProjectionMatrix(guiCam.combined);
-
-
-
 
 		game.batch.disableBlending();
 

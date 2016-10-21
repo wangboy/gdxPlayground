@@ -9,6 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.actions.SequenceAction;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import game.kt.MyGame;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -72,7 +73,7 @@ public class WorldRenderer implements World.WorldListener {
 
 	private World world;
 
-	private SanXiao game;
+	private MyGame game;
 
 	private OrthographicCamera camera;
 
@@ -81,7 +82,7 @@ public class WorldRenderer implements World.WorldListener {
 	private Map<Cube, CubeImage> cubeMap = new HashMap<>();
 	private Map<Cube, CubeImage> oldMap = new HashMap<>();
 
-	public WorldRenderer(SanXiao game, World world) {
+	public WorldRenderer(MyGame game, World world) {
 		this.game = game;
 		this.world = world;
 

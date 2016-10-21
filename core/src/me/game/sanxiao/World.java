@@ -3,6 +3,7 @@ package me.game.sanxiao;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector3;
+import game.kt.MyGame;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -27,7 +28,7 @@ public class World {
 	public static final int MATCHING = 2;
 
 
-	SanXiao game;
+	MyGame game;
 
 	Cube[][] matrix;
 
@@ -48,7 +49,7 @@ public class World {
 
 	WorldListener listener;
 
-	public World(SanXiao game) {
+	public World(MyGame game) {
 		this.game = game;
 
 		matrix = new Cube[7][7];
@@ -83,6 +84,7 @@ public class World {
 
 	//从上往下打印
 	private void printMatirx(String info) {
+		String blank = "          ";
 		System.out.println("==========" + info + "==============");
 		for (int j = 6; j >= 0; j--) {
 			for (int i = 0; i < 7; i++) {
@@ -91,12 +93,8 @@ public class World {
 				if (this.match.contains(cube)) {
 					out.append("--");
 				}
-				if (out.length() < 10) {
-					int length = out.length();
-					for (int k = 0; k < 10 - length; k++) {
-						out.append(" ");
-					}
-				}
+				out.append(blank);
+				out.delete(10, out.length());
 				System.out.print(out);
 			}
 			System.out.println();
@@ -165,30 +163,28 @@ public class World {
 		Cube desCube = dragCubes[1];
 		switch (this.dragDirection) {
 			case DRAG_DOWN:
-
 				srcCube.state = UP;
 				desCube.state = FALL;
-				srcCube.j ++;
-				desCube.j --;
-
+				srcCube.j++;
+				desCube.j--;
 				break;
 			case DRAG_UP:
 				srcCube.state = FALL;
 				desCube.state = UP;
-				srcCube.j --;
-				desCube.j ++;
+				srcCube.j--;
+				desCube.j++;
 				break;
 			case DRAG_LEFT:
 				srcCube.state = RIGHT;
 				desCube.state = LEFT;
-				srcCube.i ++;
-				desCube.i --;
+				srcCube.i++;
+				desCube.i--;
 				break;
 			case DRAG_RIGHT:
 				srcCube.state = LEFT;
 				desCube.state = RIGHT;
-				srcCube.i --;
-				desCube.i ++;
+				srcCube.i--;
+				desCube.i++;
 				break;
 			default:
 		}
@@ -199,13 +195,13 @@ public class World {
 		clearDrag();
 	}
 
-	public void click(Vector3 position){
+	public void click(Vector3 position) {
 		int[] clkIndex = getMatrixPosition(position.x, position.y);
 		if (clkIndex[0] < 0 || clkIndex[0] > 6 || clkIndex[1] > 6 || clkIndex[1] < 0) {
 			isMoving = false;
 			return;
 		}
-		Cube clickCube  = matrix[clkIndex[0]][clkIndex[1]];
+		Cube clickCube = matrix[clkIndex[0]][clkIndex[1]];
 
 		if (dragCubes[0] != null) {
 
@@ -452,66 +448,66 @@ public class World {
 //			return;
 //		} else {
 
-			this.state = MATCHING;
+		this.state = MATCHING;
 
-			///从左往右
-			for (int i = 0; i < 7; i++) {
-				//本列有多少消除
-				int fall = 0;
-				//从上往下
-				for (int j = 6; j >= 0; j--) {
-					Cube cube = matrix[i][j];
-					if (match.contains(cube)) {
-						fall++;
-						continue;
-					}
-					//数当前方块下面有多少个能消除，有一个，纵坐标减一
-					for (int k = j - 1; k >= 0; k--) {
-						Cube down = matrix[i][k];
-						if (match.contains(down)) {
-							cube.j--;
-							cube.state = FALL;
-						}
-					}
-
+		///从左往右
+		for (int i = 0; i < 7; i++) {
+			//本列有多少消除
+			int fall = 0;
+			//从上往下
+			for (int j = 6; j >= 0; j--) {
+				Cube cube = matrix[i][j];
+				if (match.contains(cube)) {
+					fall++;
+					continue;
 				}
-
-				//填补本列的空缺
-				for (int j = 1; j <= fall; j++) {
-					Cube genCube = genCube();
-
-					newCubes.add(genCube);
-
-					genCube.i = i;
-					genCube.j = 6 + j;
-					//先设置到上面，更新下设置y，然后设置正确的纵坐标
-					genCube.update(0);
-
-					genCube.j -= fall;
-					genCube.state = FALL;
-				}
-			}
-
-			//set matrix
-			cpyMatrix();
-			matrix = new Cube[7][7];
-			for (int i = 0; i < 7; i++) {
-				for (int j = 0; j < 7; j++) {
-					Cube cube = cpMatrix[i][j];
-					if (!match.contains(cube)) {
-						if (matrix[cube.i][cube.j] != null) {
-							throw new RuntimeException(" eeeeeeeeeeeeee at " + matrix[cube.i][cube.j] + " " + cube);
-						}
-						matrix[cube.i][cube.j] = cube;
+				//数当前方块下面有多少个能消除，有一个，纵坐标减一
+				for (int k = j - 1; k >= 0; k--) {
+					Cube down = matrix[i][k];
+					if (match.contains(down)) {
+						cube.j--;
+						cube.state = FALL;
 					}
 				}
+
 			}
-			for (Cube newCube : newCubes) {
-				if (matrix[newCube.i][newCube.j] != null) {
-					throw new RuntimeException(" eeeeeeeeeeeeee new at " + matrix[newCube.i][newCube.j] + " " + newCube);
+
+			//填补本列的空缺
+			for (int j = 1; j <= fall; j++) {
+				Cube genCube = genCube();
+
+				newCubes.add(genCube);
+
+				genCube.i = i;
+				genCube.j = 6 + j;
+				//先设置到上面，更新下设置y，然后设置正确的纵坐标
+				genCube.update(0);
+
+				genCube.j -= fall;
+				genCube.state = FALL;
+			}
+		}
+
+		//set matrix
+		cpyMatrix();
+		matrix = new Cube[7][7];
+		for (int i = 0; i < 7; i++) {
+			for (int j = 0; j < 7; j++) {
+				Cube cube = cpMatrix[i][j];
+				if (!match.contains(cube)) {
+					if (matrix[cube.i][cube.j] != null) {
+						throw new RuntimeException(" eeeeeeeeeeeeee at " + matrix[cube.i][cube.j] + " " + cube);
+					}
+					matrix[cube.i][cube.j] = cube;
 				}
-				matrix[newCube.i][newCube.j] = newCube;
 			}
+		}
+		for (Cube newCube : newCubes) {
+			if (matrix[newCube.i][newCube.j] != null) {
+				throw new RuntimeException(" eeeeeeeeeeeeee new at " + matrix[newCube.i][newCube.j] + " " + newCube);
+			}
+			matrix[newCube.i][newCube.j] = newCube;
+		}
 //		}
 
 //		this.match.clear();

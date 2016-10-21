@@ -2,6 +2,7 @@ package com.gdx.client.desktop
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration
+import game.kt.SanXiaoKt
 import me.game.sanxiao.SanXiao
 import test.kotlin.TestKotlin
 
@@ -18,7 +19,8 @@ class DesktopLauncher {
 
             config.width = 320
             config.height = 480
-            LwjglApplication(SanXiao(), config)
+//            LwjglApplication(SanXiao(), config)
+            LwjglApplication(SanXiaoKt(), config)
         }
     }
 }

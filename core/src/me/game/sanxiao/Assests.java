@@ -98,11 +98,7 @@ public class Assests {
 		purple = atlas.findRegion("05Purple");
 
 		cubes = new Array<>();
-		cubes.add(red);
-		cubes.add(yellow);
-		cubes.add(green);
-		cubes.add(blue);
-		cubes.add(purple);
+		cubes.addAll(red, yellow, green, blue, purple);
 
 		moneys = atlas.findRegions("Money");
 		times = atlas.findRegions("Time");

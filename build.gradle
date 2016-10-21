@@ -70,6 +70,11 @@ project(":core") {
         compile "org.jetbrains.kotlin:kotlin-stdlib:+"
         compile "org.jetbrains.kotlin:kotlin-reflect:+"
         compile "org.jetbrains.kotlin:kotlin-test-junit:+"
+
+        compile "com.github.czyzby:ktx-actors:1.9.4-b1"
+        compile "com.github.czyzby:ktx-app:1.9.4-b1"
+        compile "com.github.czyzby:ktx-collections:1.9.4-b1"
+
     }
 }
 

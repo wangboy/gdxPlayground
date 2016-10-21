@@ -6,6 +6,7 @@ import com.badlogic.gdx.ScreenAdapter;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Vector3;
+import game.kt.MyGame;
 
 import static me.game.sanxiao.Assests.*;
 
@@ -14,7 +15,7 @@ import static me.game.sanxiao.Assests.*;
  */
 public class GameScreen extends ScreenAdapter implements InputProcessor {
 
-    private SanXiao game;
+    private MyGame game;
 
     private OrthographicCamera camera;
 
@@ -26,7 +27,7 @@ public class GameScreen extends ScreenAdapter implements InputProcessor {
 
     private Vector3 touchDes;
 
-    public GameScreen(SanXiao game) {
+    public GameScreen(MyGame game) {
         this.game = game;
 
         this.camera = new OrthographicCamera(WORLD_WIDTH, WORLD_HEIGHT);

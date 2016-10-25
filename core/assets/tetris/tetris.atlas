@@ -1,0 +1,265 @@
+
+tetris.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+01Red
+  rotate: false
+  xy: 2, 356
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: 4
+02Yallow
+  rotate: false
+  xy: 2, 204
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: 6
+03Green
+  rotate: false
+  xy: 154, 356
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: 5
+04Blue
+  rotate: false
+  xy: 2, 52
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: 3
+05Purple
+  rotate: false
+  xy: 154, 204
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: 5
+Money
+  rotate: false
+  xy: 2, 2
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: 0
+Money
+  rotate: false
+  xy: 264, 28
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: 1
+Money
+  rotate: false
+  xy: 60, 2
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: 2
+Money
+  rotate: false
+  xy: 448, 362
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: 3
+Money
+  rotate: false
+  xy: 506, 362
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: 4
+Money
+  rotate: false
+  xy: 564, 362
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: 5
+Money
+  rotate: false
+  xy: 622, 362
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: 6
+Money
+  rotate: false
+  xy: 680, 362
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: 7
+Money
+  rotate: false
+  xy: 738, 362
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: 8
+Money
+  rotate: false
+  xy: 796, 362
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: 9
+Money_Icon
+  rotate: false
+  xy: 306, 366
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+Score
+  rotate: false
+  xy: 154, 108
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: 0
+Score
+  rotate: false
+  xy: 306, 270
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: 1
+Score
+  rotate: false
+  xy: 448, 412
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: 2
+Score
+  rotate: false
+  xy: 558, 412
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: 3
+Score
+  rotate: false
+  xy: 668, 412
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: 4
+Score
+  rotate: false
+  xy: 778, 412
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: 5
+Score
+  rotate: false
+  xy: 888, 412
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: 6
+Score
+  rotate: false
+  xy: 306, 174
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: 7
+Score
+  rotate: false
+  xy: 154, 12
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: 8
+Score
+  rotate: false
+  xy: 264, 78
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: 9
+Time
+  rotate: false
+  xy: 374, 140
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: 0
+Time
+  rotate: false
+  xy: 322, 44
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: 1
+Time
+  rotate: false
+  xy: 854, 378
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: 2
+Time
+  rotate: false
+  xy: 374, 106
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: 3
+Time
+  rotate: false
+  xy: 892, 378
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: 4
+Time
+  rotate: false
+  xy: 930, 378
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: 5
+Time
+  rotate: false
+  xy: 374, 72
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: 6
+Time
+  rotate: false
+  xy: 968, 378
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: 7
+Time
+  rotate: false
+  xy: 322, 10
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: 8
+Time
+  rotate: false
+  xy: 360, 38
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: 9
+Time_M
+  rotate: false
+  xy: 360, 4
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1

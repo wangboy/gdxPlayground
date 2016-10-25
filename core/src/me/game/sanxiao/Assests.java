@@ -22,7 +22,7 @@ public class Assests {
 //    public static final int CUBE_BLUE = 3;
 //    public static final int CUBE_PURPLE = 4;
 
-	public static enum Color {
+	public enum Color {
 
 		RED(0),
 

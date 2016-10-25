@@ -2,9 +2,8 @@ package com.gdx.client.desktop
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration
-import game.kt.SanXiaoKt
-import me.game.sanxiao.SanXiao
-import test.kotlin.TestKotlin
+import game.kt.SanXiao
+import me.game.tetris.Tetris
 
 /**
  * Created by wangbo on 16/7/15.
@@ -17,10 +16,13 @@ class DesktopLauncher {
 //            config.height = 320
 //            LwjglApplication(TestKotlin(), config)
 
+//            config.width = 320
+//            config.height = 480
+//            LwjglApplication(SanXiao(), config)
+
             config.width = 320
             config.height = 480
-//            LwjglApplication(SanXiao(), config)
-            LwjglApplication(SanXiaoKt(), config)
+            LwjglApplication(Tetris(), config)
         }
     }
 }

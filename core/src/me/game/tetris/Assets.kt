@@ -20,11 +20,11 @@ const val WORLD_HEIGHT: Float = WORLD_WIDTH * (BASE_HEIGHT / BASE_WIDTH)
 class Assets {
     companion object {
         val atlas = TextureAtlas(Gdx.files.internal("./tetris/tetris.atlas"))
-        val red: TextureAtlas.AtlasRegion = atlas.findRegion("01Red")
+        val cube: TextureAtlas.AtlasRegion = atlas.findRegion("Mino_Orange")
 
-        val bg: Texture = Texture(Gdx.files.internal("./tetris/BG.jpg"))
+        val bg: TextureAtlas.AtlasRegion = atlas.findRegion("BG")
 
-        val scores: Array<TextureAtlas.AtlasRegion> = atlas.findRegions("Score")
+//        val scores: Array<TextureAtlas.AtlasRegion> = atlas.findRegions("Score")
         val sound: Sound = Gdx.audio.newSound(Gdx.files.internal("./tetris/click.wav"))
 
 

@@ -66,7 +66,7 @@ class MainMenu : ScreenAdapter() {
 
 
     override fun render(delta: Float) {
-        todo { println(" =============== ") }
+//        todo { println(" =============== ") }
         this.update()
         this.draw()
     }

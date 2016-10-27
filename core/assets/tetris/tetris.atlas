@@ -1,265 +1,2075 @@
 
 tetris.png
-size: 1024,512
+size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-01Red
+Arrow_Back
   rotate: false
-  xy: 2, 356
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: 4
-02Yallow
-  rotate: false
-  xy: 2, 204
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: 6
-03Green
-  rotate: false
-  xy: 154, 356
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: 5
-04Blue
-  rotate: false
-  xy: 2, 52
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: 3
-05Purple
-  rotate: false
-  xy: 154, 204
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: 5
-Money
-  rotate: false
-  xy: 2, 2
-  size: 56, 48
-  orig: 56, 48
-  offset: 0, 0
-  index: 0
-Money
-  rotate: false
-  xy: 264, 28
-  size: 56, 48
-  orig: 56, 48
-  offset: 0, 0
-  index: 1
-Money
-  rotate: false
-  xy: 60, 2
-  size: 56, 48
-  orig: 56, 48
-  offset: 0, 0
-  index: 2
-Money
-  rotate: false
-  xy: 448, 362
-  size: 56, 48
-  orig: 56, 48
-  offset: 0, 0
-  index: 3
-Money
-  rotate: false
-  xy: 506, 362
-  size: 56, 48
-  orig: 56, 48
-  offset: 0, 0
-  index: 4
-Money
-  rotate: false
-  xy: 564, 362
-  size: 56, 48
-  orig: 56, 48
-  offset: 0, 0
-  index: 5
-Money
-  rotate: false
-  xy: 622, 362
-  size: 56, 48
-  orig: 56, 48
-  offset: 0, 0
-  index: 6
-Money
-  rotate: false
-  xy: 680, 362
-  size: 56, 48
-  orig: 56, 48
-  offset: 0, 0
-  index: 7
-Money
-  rotate: false
-  xy: 738, 362
-  size: 56, 48
-  orig: 56, 48
-  offset: 0, 0
-  index: 8
-Money
-  rotate: false
-  xy: 796, 362
-  size: 56, 48
-  orig: 56, 48
-  offset: 0, 0
-  index: 9
-Money_Icon
-  rotate: false
-  xy: 306, 366
-  size: 140, 140
-  orig: 140, 140
+  xy: 994, 815
+  size: 18, 30
+  orig: 18, 30
   offset: 0, 0
   index: -1
-Score
+BG
   rotate: false
-  xy: 154, 108
-  size: 108, 94
-  orig: 108, 94
+  xy: 2, 168
+  size: 480, 854
+  orig: 480, 854
   offset: 0, 0
-  index: 0
-Score
+  index: -1
+BG_BattlesMain
   rotate: false
-  xy: 306, 270
-  size: 108, 94
-  orig: 108, 94
+  xy: 484, 168
+  size: 480, 854
+  orig: 480, 854
+  offset: 0, 0
+  index: -1
+BG_FBLogin_Scrim
+  rotate: false
+  xy: 966, 847
+  size: 29, 116
+  orig: 29, 116
+  offset: 0, 0
+  index: -1
+BG_FinisherGreen
+  rotate: false
+  xy: 298, 7
+  size: 107, 111
+  orig: 107, 111
+  offset: 0, 0
+  index: -1
+BG_Slider
+  rotate: false
+  xy: 596, 4
+  size: 29, 18
+  orig: 29, 18
+  offset: 0, 0
+  index: -1
+BonusBlitz_Finisher_Strip
+  rotate: false
+  xy: 837, 149
+  size: 85, 17
+  orig: 85, 17
+  offset: 0, 0
+  index: -1
+BonusBlitz_Meter
+  rotate: false
+  xy: 2, 120
+  size: 385, 14
+  orig: 385, 14
+  offset: 0, 0
+  index: -1
+BonusBlitz_PU_Strip
+  rotate: false
+  xy: 966, 177
+  size: 56, 17
+  orig: 56, 17
+  offset: 0, 0
+  index: -1
+BonusBlitz_Ticket_Strip
+  rotate: false
+  xy: 449, 5
+  size: 52, 17
+  orig: 52, 17
+  offset: 0, 0
+  index: -1
+Button_GreenSmall
+  rotate: false
+  xy: 407, 94
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+Button_GreySmall
+  rotate: false
+  xy: 407, 52
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+Button_Yellow_Small
+  rotate: false
+  xy: 407, 10
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+Circular_Outer_Glow
+  rotate: false
+  xy: 678, 3
+  size: 141, 141
+  orig: 141, 141
+  offset: 0, 0
+  index: -1
+Coin
+  rotate: false
+  xy: 994, 788
+  size: 18, 25
+  orig: 18, 25
+  offset: 0, 0
+  index: -1
+CoinBonusBlitz
+  rotate: false
+  xy: 966, 569
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+Divider
+  rotate: false
+  xy: 670, 16
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+Divider_Panel
+  rotate: false
+  xy: 961, 144
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+FallingMino
+  rotate: false
+  xy: 648, 6
+  size: 20, 16
+  orig: 20, 16
+  offset: 0, 0
+  index: -1
+Fill_SliderCoppa
+  rotate: false
+  xy: 449, 146
+  size: 386, 20
+  orig: 386, 20
+  offset: 0, 0
+  index: -1
+Finisher_TagBar
+  rotate: false
+  xy: 2, 152
+  size: 445, 14
+  orig: 445, 14
+  offset: 0, 0
+  index: -1
+Flonase_TagBar
+  rotate: false
+  xy: 2, 136
+  size: 445, 14
+  orig: 445, 14
+  offset: 0, 0
+  index: -1
+IconCrown
+  rotate: false
+  xy: 966, 731
+  size: 56, 35
+  orig: 56, 35
+  offset: 0, 0
+  index: -1
+Icon_Achievements
+  rotate: false
+  xy: 997, 855
+  size: 23, 38
+  orig: 23, 38
+  offset: 0, 0
+  index: -1
+Icon_BonusBlitz
+  rotate: false
+  xy: 966, 697
+  size: 56, 32
+  orig: 56, 32
+  offset: 0, 0
+  index: -1
+Icon_Close
+  rotate: false
+  xy: 947, 149
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+Icon_Energy
+  rotate: false
+  xy: 966, 625
+  size: 41, 70
+  orig: 41, 70
+  offset: 0, 0
+  index: -1
+Icon_FB_White
+  rotate: false
+  xy: 966, 513
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+Icon_Fb
+  rotate: false
+  xy: 961, 67
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+Icon_MysteryBox
+  rotate: false
+  xy: 966, 129
+  size: 49, 46
+  orig: 49, 46
+  offset: 0, 0
+  index: -1
+Icon_Plus
+  rotate: false
+  xy: 627, 4
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+IntentedHeaderBG
+  rotate: false
+  xy: 997, 895
+  size: 12, 68
+  orig: 12, 68
+  offset: 0, 0
+  index: -1
+LevelRing
+  rotate: false
+  xy: 966, 458
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+PUOTW_Slider
+  rotate: false
+  xy: 284, 109
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+PageScrollDotDark
+  rotate: false
+  xy: 389, 122
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+PanelGrey
+  rotate: false
+  xy: 966, 768
+  size: 26, 77
+  orig: 26, 77
+  offset: 0, 0
+  index: -1
+PlayButtonAds
+  rotate: false
+  xy: 994, 769
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+Rectangular_Outer_Glow
+  rotate: false
+  xy: 821, 8
+  size: 138, 136
+  orig: 138, 136
+  offset: 0, 0
+  index: -1
+Red_Strip
+  rotate: false
+  xy: 503, 5
+  size: 49, 17
+  orig: 49, 17
+  offset: 0, 0
+  index: -1
+SplashLoadingGlow
+  rotate: false
+  xy: 2, 100
+  size: 280, 18
+  orig: 280, 18
+  offset: 0, 0
+  index: -1
+SplashLoadingGlow_Retro
+  rotate: false
+  xy: 2, 80
+  size: 280, 18
+  orig: 280, 18
+  offset: 0, 0
+  index: -1
+TrophyRibbonBot
+  rotate: false
+  xy: 150, 12
+  size: 146, 66
+  orig: 146, 66
+  offset: 0, 0
+  index: -1
+TrophyRibbonTop
+  rotate: false
+  xy: 2, 11
+  size: 146, 67
+  orig: 146, 67
+  offset: 0, 0
+  index: -1
+UnifiedHeaderBG
+  rotate: false
+  xy: 1009, 627
+  size: 12, 68
+  orig: 12, 68
+  offset: 0, 0
+  index: -1
+VS_profileframe
+  rotate: false
+  xy: 966, 246
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+VS_profileglow
+  rotate: false
+  xy: 966, 196
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+blast
+  rotate: false
+  xy: 449, 24
+  size: 227, 120
+  orig: 227, 120
+  offset: 0, 0
+  index: -1
+finisher_toyota
+  rotate: false
+  xy: 966, 965
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+helper_Amplifier
+  rotate: false
+  xy: 961, 6
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+hud_down_arrow
+  rotate: false
+  xy: 554, 2
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+hud_up_arrow
+  rotate: false
+  xy: 575, 2
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+pauseIcon
+  rotate: false
+  xy: 924, 146
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+trophy_bronze
+  rotate: false
+  xy: 966, 404
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+trophy_golden
+  rotate: false
+  xy: 966, 350
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+trophy_silver
+  rotate: false
+  xy: 966, 296
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+
+tetris2.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Arrow_Right
+  rotate: false
+  xy: 1008, 387
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+BG_Cyan_Medium
+  rotate: false
+  xy: 966, 890
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+BG_Retro
+  rotate: false
+  xy: 2, 168
+  size: 480, 854
+  orig: 480, 854
+  offset: 0, 0
+  index: -1
+Banner_SaleOverlay
+  rotate: false
+  xy: 938, 86
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Bg_Tournaments
+  rotate: false
+  xy: 484, 168
+  size: 480, 854
+  orig: 480, 854
+  offset: 0, 0
+  index: -1
+Bomb_Explosion_Begining2
+  rotate: false
+  xy: 218, 16
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+Button_Blue_Half
+  rotate: false
+  xy: 966, 844
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+Button_GoldRushOverlay
+  rotate: false
+  xy: 966, 526
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: -1
+Button_Gray
+  rotate: false
+  xy: 966, 433
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1
+Button_Purple_Big
+  rotate: false
+  xy: 635, 41
+  size: 99, 125
+  orig: 99, 125
+  offset: 0, 0
+  index: -1
+Button_Red_Big
+  rotate: false
+  xy: 736, 41
+  size: 99, 125
+  orig: 99, 125
+  offset: 0, 0
+  index: -1
+Button_Yellow_Big
+  rotate: false
+  xy: 837, 41
+  size: 99, 125
+  orig: 99, 125
+  offset: 0, 0
+  index: -1
+Button_Yellow_Small01
+  rotate: false
+  xy: 966, 391
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+CheckBox_BG
+  rotate: false
+  xy: 809, 9
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+Circular_Glow
+  rotate: false
+  xy: 370, 33
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+Coin_Big
+  rotate: false
+  xy: 966, 709
+  size: 44, 41
+  orig: 44, 41
+  offset: 0, 0
+  index: -1
+Coin_Medium
+  rotate: false
+  xy: 966, 177
+  size: 37, 50
+  orig: 37, 50
+  offset: 0, 0
+  index: -1
+Discount_tag
+  rotate: false
+  xy: 966, 798
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+EnergyRing
+  rotate: false
+  xy: 505, 38
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+GrayPanelRound
+  rotate: false
+  xy: 481, 6
+  size: 35, 25
+  orig: 35, 25
+  offset: 0, 0
+  index: -1
+GrayPanelRound_outline
+  rotate: false
+  xy: 873, 14
+  size: 35, 25
+  orig: 35, 25
+  offset: 0, 0
+  index: -1
+GreenTick
+  rotate: false
+  xy: 554, 3
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+IconNotification
+  rotate: false
+  xy: 776, 7
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+IconTrophyCount
+  rotate: false
+  xy: 966, 666
+  size: 44, 41
+  orig: 44, 41
+  offset: 0, 0
+  index: -1
+IconVolume
+  rotate: false
+  xy: 966, 478
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+Icon_FBLogin_Friends
+  rotate: false
+  xy: 966, 309
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+Icon_FBLogin_Prizes
+  rotate: false
+  xy: 966, 269
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+Icon_FBLogin_Sync
+  rotate: false
+  xy: 966, 229
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+Icon_Message
+  rotate: false
+  xy: 370, 2
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+Icon_PlaySmall
+  rotate: false
+  xy: 1008, 408
+  size: 14, 23
+  orig: 14, 23
+  offset: 0, 0
+  index: -1
+Icon_Shop
+  rotate: false
+  xy: 407, 2
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+Icon_TournamentLeaderBoard
+  rotate: false
+  xy: 966, 621
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+Icon_blue_star
+  rotate: false
+  xy: 938, 4
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+MinoCubeWhite
+  rotate: false
+  xy: 966, 980
+  size: 45, 42
+  orig: 45, 42
+  offset: 0, 0
+  index: -1
+MinoCubeYellow
+  rotate: false
+  xy: 966, 936
+  size: 45, 42
+  orig: 45, 42
+  offset: 0, 0
+  index: -1
+Mino_Orange
+  rotate: false
+  xy: 518, 2
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+Offer_TagRed
+  rotate: false
+  xy: 966, 752
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+PU_Blue_BG
+  rotate: false
+  xy: 589, 3
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+PageScrollDotLite
+  rotate: false
+  xy: 218, 2
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+Plus_sign
+  rotate: false
+  xy: 910, 15
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+PopupBGGray
+  rotate: false
+  xy: 2, 8
+  size: 214, 158
+  orig: 214, 158
+  offset: 0, 0
+  index: -1
+Rank_BG
+  rotate: false
+  xy: 966, 569
+  size: 42, 50
+  orig: 42, 50
+  offset: 0, 0
+  index: -1
+RedCross
+  rotate: false
+  xy: 624, 3
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+VS_Icon_Grey
+  rotate: false
+  xy: 659, 4
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+VS_Icon_Outline
+  rotate: false
+  xy: 699, 4
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+WhiteQuestion
+  rotate: false
+  xy: 841, 9
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+WhiteSpot
+  rotate: false
+  xy: 1006, 332
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+discount_cart
+  rotate: false
+  xy: 966, 349
+  size: 40, 40
+  orig: 40, 40
   offset: 0, 0
   index: 1
-Score
+video_ad_icon
   rotate: false
-  xy: 448, 412
-  size: 108, 94
-  orig: 108, 94
+  xy: 444, 5
+  size: 35, 26
+  orig: 35, 26
   offset: 0, 0
-  index: 2
-Score
+  index: -1
+video_icon
   rotate: false
-  xy: 558, 412
-  size: 108, 94
-  orig: 108, 94
+  xy: 739, 7
+  size: 35, 32
+  orig: 35, 32
   offset: 0, 0
-  index: 3
-Score
+  index: -1
+
+tetris3.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Bling
   rotate: false
-  xy: 668, 412
-  size: 108, 94
-  orig: 108, 94
+  xy: 108, 2
+  size: 70, 70
+  orig: 70, 70
   offset: 0, 0
-  index: 4
-Score
+  index: -1
+BonusBlitzItemBG
   rotate: false
-  xy: 778, 412
-  size: 108, 94
-  orig: 108, 94
+  xy: 938, 551
+  size: 75, 75
+  orig: 75, 75
   offset: 0, 0
-  index: 5
-Score
+  index: -1
+BonusBlitzItemGoldCover
   rotate: false
-  xy: 888, 412
-  size: 108, 94
-  orig: 108, 94
+  xy: 938, 474
+  size: 75, 75
+  orig: 75, 75
   offset: 0, 0
-  index: 6
-Score
+  index: -1
+Burst
   rotate: false
-  xy: 306, 174
-  size: 108, 94
-  orig: 108, 94
+  xy: 2, 728
+  size: 293, 293
+  orig: 293, 293
   offset: 0, 0
-  index: 7
-Score
+  index: -1
+Burst_Battle
   rotate: false
-  xy: 154, 12
-  size: 108, 94
-  orig: 108, 94
+  xy: 2, 288
+  size: 250, 193
+  orig: 250, 193
   offset: 0, 0
-  index: 8
-Score
+  index: -1
+Coins_bg
   rotate: false
-  xy: 264, 78
-  size: 108, 94
-  orig: 108, 94
+  xy: 468, 297
+  size: 68, 68
+  orig: 68, 68
   offset: 0, 0
-  index: 9
-Time
+  index: -1
+Default_Finisher
   rotate: false
-  xy: 374, 140
-  size: 36, 32
-  orig: 36, 32
+  xy: 692, 337
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+EnergyRingBG
+  rotate: false
+  xy: 654, 694
+  size: 121, 121
+  orig: 121, 121
+  offset: 0, 0
+  index: -1
+EnergyRingDotted
+  rotate: false
+  xy: 180, 3
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+FinishersOuterGlow
+  rotate: false
+  xy: 2, 74
+  size: 223, 212
+  orig: 223, 212
+  offset: 0, 0
+  index: -1
+Glow_PowerUp
+  rotate: false
+  xy: 938, 397
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+IconBattle
+  rotate: false
+  xy: 484, 367
+  size: 102, 83
+  orig: 102, 83
+  offset: 0, 0
+  index: -1
+IconMusic
+  rotate: false
+  xy: 538, 323
+  size: 35, 42
+  orig: 35, 42
+  offset: 0, 0
+  index: -1
+IconPlay
+  rotate: false
+  xy: 940, 167
+  size: 71, 74
+  orig: 71, 74
+  offset: 0, 0
+  index: -1
+IconPlay_Glow
+  rotate: false
+  xy: 940, 91
+  size: 71, 74
+  orig: 71, 74
+  offset: 0, 0
+  index: -1
+IconTournament
+  rotate: false
+  xy: 588, 346
+  size: 102, 83
+  orig: 102, 83
+  offset: 0, 0
+  index: -1
+Icon_OptionsMenu
+  rotate: false
+  xy: 654, 669
+  size: 38, 23
+  orig: 38, 23
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy10_Complete
+  rotate: false
+  xy: 227, 179
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy10_Locked
+  rotate: false
+  xy: 227, 70
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy11_Complete
+  rotate: false
+  xy: 435, 185
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy11_Locked
+  rotate: false
+  xy: 435, 76
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy12_Complete
+  rotate: false
+  xy: 730, 585
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy12_Locked
+  rotate: false
+  xy: 736, 476
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy13_Complete
+  rotate: false
+  xy: 831, 593
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy13_Locked
+  rotate: false
+  xy: 837, 484
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy14_Complete
+  rotate: false
+  xy: 837, 375
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy14_Locked
+  rotate: false
+  xy: 536, 188
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy15_Complete
+  rotate: false
+  xy: 536, 79
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy15_Locked
+  rotate: false
+  xy: 637, 228
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy16_Complete
+  rotate: false
+  xy: 637, 119
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy16_Locked
+  rotate: false
+  xy: 738, 228
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy17_Complete
+  rotate: false
+  xy: 738, 119
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy17_Locked
+  rotate: false
+  xy: 839, 266
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy18_Complete
+  rotate: false
+  xy: 839, 157
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy18_Locked
+  rotate: false
+  xy: 637, 10
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy19_Complete
+  rotate: false
+  xy: 738, 10
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy19_Locked
+  rotate: false
+  xy: 839, 48
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+Lock
+  rotate: false
+  xy: 792, 391
+  size: 32, 41
+  orig: 32, 41
+  offset: 0, 0
+  index: -1
+Logo
+  rotate: false
+  xy: 2, 483
+  size: 266, 243
+  orig: 266, 243
+  offset: 0, 0
+  index: -1
+MysteryBox
+  rotate: false
+  xy: 777, 702
+  size: 113, 113
+  orig: 113, 113
   offset: 0, 0
   index: 0
-Time
+MysteryBox
   rotate: false
-  xy: 322, 44
-  size: 36, 32
-  orig: 36, 32
+  xy: 270, 508
+  size: 113, 113
+  orig: 113, 113
   offset: 0, 0
   index: 1
-Time
+MysteryBox
   rotate: false
-  xy: 854, 378
-  size: 36, 32
-  orig: 36, 32
+  xy: 385, 508
+  size: 113, 113
+  orig: 113, 113
   offset: 0, 0
   index: 2
-Time
+MysteryBox
   rotate: false
-  xy: 374, 106
-  size: 36, 32
-  orig: 36, 32
+  xy: 500, 546
+  size: 113, 113
+  orig: 113, 113
   offset: 0, 0
   index: 3
-Time
+MysteryBox
   rotate: false
-  xy: 892, 378
-  size: 36, 32
-  orig: 36, 32
+  xy: 615, 546
+  size: 113, 113
+  orig: 113, 113
   offset: 0, 0
   index: 4
-Time
+MysteryBox
   rotate: false
-  xy: 930, 378
-  size: 36, 32
-  orig: 36, 32
+  xy: 621, 431
+  size: 113, 113
+  orig: 113, 113
   offset: 0, 0
   index: 5
-Time
+Offer_TagBlue
   rotate: false
-  xy: 374, 72
-  size: 36, 32
-  orig: 36, 32
+  xy: 2, 15
+  size: 104, 57
+  orig: 104, 57
   offset: 0, 0
-  index: 6
-Time
+  index: -1
+Plus_xp
   rotate: false
-  xy: 968, 378
-  size: 36, 32
-  orig: 36, 32
+  xy: 798, 436
+  size: 36, 38
+  orig: 36, 38
   offset: 0, 0
-  index: 7
-Time
+  index: -1
+PureWhite
   rotate: false
-  xy: 322, 10
-  size: 36, 32
-  orig: 36, 32
+  xy: 538, 297
+  size: 24, 24
+  orig: 24, 24
   offset: 0, 0
-  index: 8
-Time
+  index: -1
+SplashLoadingBar
   rotate: false
-  xy: 360, 38
-  size: 36, 32
-  orig: 36, 32
+  xy: 575, 323
+  size: 32, 21
+  orig: 32, 21
   offset: 0, 0
-  index: 9
-Time_M
+  index: -1
+SplashLoadingFade
   rotate: false
-  xy: 360, 4
-  size: 36, 32
-  orig: 36, 32
+  xy: 564, 297
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+TetrisBlitz_BackingMain_anim_shape
+  rotate: false
+  xy: 500, 452
+  size: 119, 92
+  orig: 119, 92
+  offset: 0, 0
+  index: -1
+Tier
+  rotate: false
+  xy: 270, 401
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: 0
+Tier
+  rotate: false
+  xy: 377, 401
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: 1
+Tier
+  rotate: false
+  xy: 254, 294
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: 2
+Tier
+  rotate: false
+  xy: 361, 294
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: 3
+Tier
+  rotate: false
+  xy: 328, 187
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: 4
+Tier
+  rotate: false
+  xy: 328, 80
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: 5
+Tier_StarBig
+  rotate: false
+  xy: 478, 661
+  size: 174, 166
+  orig: 174, 166
+  offset: 0, 0
+  index: -1
+Tournament_IconCheck
+  rotate: false
+  xy: 940, 320
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Tournament_Icon_AlwaysFrenzy_Common
+  rotate: false
+  xy: 940, 17
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_AlwaysFrenzy_Rare
+  rotate: false
+  xy: 328, 6
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_AlwaysFrenzy_Special
+  rotate: false
+  xy: 402, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_AlwaysFrenzy_Uncommon
+  rotate: false
+  xy: 476, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_BigRain_Common
+  rotate: false
+  xy: 550, 5
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+UnLock
+  rotate: false
+  xy: 792, 348
+  size: 32, 41
+  orig: 32, 41
+  offset: 0, 0
+  index: -1
+facebook_coins
+  rotate: false
+  xy: 297, 829
+  size: 360, 192
+  orig: 360, 192
+  offset: 0, 0
+  index: -1
+games_achievements
+  rotate: false
+  xy: 839, 8
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+games_controller_grey
+  rotate: false
+  xy: 879, 8
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+helper_Elfy
+  rotate: false
+  xy: 247, 9
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_bulldozerSponsored
+  rotate: false
+  xy: 736, 434
+  size: 60, 40
+  orig: 60, 40
+  offset: 0, 0
+  index: -1
+icon_mystery_box
+  rotate: false
+  xy: 932, 628
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+popup_glow
+  rotate: false
+  xy: 940, 243
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+share_ribbon
+  rotate: false
+  xy: 892, 720
+  size: 130, 95
+  orig: 130, 95
+  offset: 0, 0
+  index: -1
+trophy-cup_bronze
+  rotate: false
+  xy: 659, 817
+  size: 179, 204
+  orig: 179, 204
+  offset: 0, 0
+  index: -1
+trophy-cup_gold
+  rotate: false
+  xy: 840, 817
+  size: 179, 204
+  orig: 179, 204
+  offset: 0, 0
+  index: -1
+trophy-cup_silver
+  rotate: false
+  xy: 297, 623
+  size: 179, 204
+  orig: 179, 204
+  offset: 0, 0
+  index: -1
+
+tetris4.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+BG_Gray_Medium_Glow
+  rotate: false
+  xy: 596, 459
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+Default_PowerUp
+  rotate: false
+  xy: 596, 399
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+IconLock
+  rotate: false
+  xy: 440, 503
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+Icon_NoPowerup
+  rotate: false
+  xy: 507, 909
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+Icon_Shield
+  rotate: false
+  xy: 2, 76
+  size: 89, 83
+  orig: 89, 83
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy1_Complete
+  rotate: false
+  xy: 2, 894
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy1_Locked
+  rotate: false
+  xy: 2, 785
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy20_Complete
+  rotate: false
+  xy: 103, 894
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy20_Locked
+  rotate: false
+  xy: 2, 676
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy2_Complete
+  rotate: false
+  xy: 103, 785
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy2_Locked
+  rotate: false
+  xy: 204, 894
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy3_Complete
+  rotate: false
+  xy: 2, 567
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy3_Locked
+  rotate: false
+  xy: 103, 676
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy4_Complete
+  rotate: false
+  xy: 204, 785
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy4_Locked
+  rotate: false
+  xy: 305, 894
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy5_Complete
+  rotate: false
+  xy: 2, 458
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy5_Locked
+  rotate: false
+  xy: 103, 567
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy6_Complete
+  rotate: false
+  xy: 204, 676
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy6_Locked
+  rotate: false
+  xy: 305, 785
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy7_Complete
+  rotate: false
+  xy: 406, 894
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy7_Locked
+  rotate: false
+  xy: 2, 349
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy8_Complete
+  rotate: false
+  xy: 103, 458
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy8_Locked
+  rotate: false
+  xy: 204, 567
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy9_Complete
+  rotate: false
+  xy: 305, 676
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+LevelProgressionTrophy9_Locked
+  rotate: false
+  xy: 406, 785
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+Tournament_Icon_BigRain_Rare
+  rotate: false
+  xy: 707, 835
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_BigRain_Special
+  rotate: false
+  xy: 807, 929
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_BigRain_Uncommon
+  rotate: false
+  xy: 2, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Cascade_Common
+  rotate: false
+  xy: 881, 929
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Cascade_Rare
+  rotate: false
+  xy: 507, 741
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Cascade_Special
+  rotate: false
+  xy: 581, 741
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Cascade_Uncommon
+  rotate: false
+  xy: 655, 741
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_ExtraPowerUp_Common
+  rotate: false
+  xy: 506, 667
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_ExtraPowerUp_Rare
+  rotate: false
+  xy: 580, 667
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_ExtraPowerUp_Special
+  rotate: false
+  xy: 654, 667
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_ExtraPowerUp_Uncommon
+  rotate: false
+  xy: 729, 761
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_FastPieceDrop_Common
+  rotate: false
+  xy: 781, 835
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_FastPieceDrop_Rare
+  rotate: false
+  xy: 855, 855
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_FastPieceDrop_Special
+  rotate: false
+  xy: 803, 761
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_FastPieceDrop_Uncommon
+  rotate: false
+  xy: 877, 781
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_NoPowerUpRequired_Common
+  rotate: false
+  xy: 929, 855
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_NoPowerUpRequired_Rare
+  rotate: false
+  xy: 729, 687
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_NoPowerUpRequired_Special
+  rotate: false
+  xy: 803, 687
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_NoPowerUpRequired_Uncommon
+  rotate: false
+  xy: 877, 707
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_NoRain_Common
+  rotate: false
+  xy: 877, 633
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_NoRain_Rare
+  rotate: false
+  xy: 728, 613
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_NoRain_Special
+  rotate: false
+  xy: 802, 613
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_NoRain_Uncommon
+  rotate: false
+  xy: 876, 559
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_PowerUpRequired_Common
+  rotate: false
+  xy: 950, 559
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_PowerUpRequired_Rare
+  rotate: false
+  xy: 76, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_PowerUpRequired_Special
+  rotate: false
+  xy: 204, 399
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_PowerUpRequired_Uncommon
+  rotate: false
+  xy: 203, 325
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_PureLuck_Common
+  rotate: false
+  xy: 278, 399
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_PureLuck_Rare
+  rotate: false
+  xy: 277, 325
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_PureLuck_Special
+  rotate: false
+  xy: 406, 617
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_PureLuck_Uncommon
+  rotate: false
+  xy: 405, 543
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Puzzle_Common
+  rotate: false
+  xy: 480, 593
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Puzzle_Rare
+  rotate: false
+  xy: 554, 593
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Puzzle_Special
+  rotate: false
+  xy: 628, 593
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Puzzle_Uncommon
+  rotate: false
+  xy: 479, 519
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Retro_Common
+  rotate: false
+  xy: 553, 519
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Retro_Rare
+  rotate: false
+  xy: 627, 519
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Retro_Special
+  rotate: false
+  xy: 103, 290
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_Retro_Uncommon
+  rotate: false
+  xy: 102, 216
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_TimeChange_Common
+  rotate: false
+  xy: 102, 142
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_TimeChange_Rare
+  rotate: false
+  xy: 305, 508
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_TimeChange_Special
+  rotate: false
+  xy: 177, 251
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_TimeChange_Uncommon
+  rotate: false
+  xy: 251, 251
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_TimeSquareTheme_Common
+  rotate: false
+  xy: 176, 177
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_TimeSquareTheme_Rare
+  rotate: false
+  xy: 250, 177
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_TimeSquareTheme_Special
+  rotate: false
+  xy: 176, 103
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+Tournament_Icon_TimeSquareTheme_Uncommon
+  rotate: false
+  xy: 250, 103
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+finisher_birthdaycake
+  rotate: false
+  xy: 2, 255
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+finisher_giftingTree
+  rotate: false
+  xy: 103, 364
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+finisher_inversion
+  rotate: false
+  xy: 204, 473
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+finisher_inversion_Retro
+  rotate: false
+  xy: 305, 582
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+finisher_minoRain
+  rotate: false
+  xy: 406, 691
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+finisher_minoRain_Retro
+  rotate: false
+  xy: 507, 815
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+finisher_popcorn
+  rotate: false
+  xy: 607, 909
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+finisher_powershower
+  rotate: false
+  xy: 2, 161
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+finisher_rewind
+  rotate: false
+  xy: 607, 815
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+finisher_rewind_Retro
+  rotate: false
+  xy: 707, 909
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
+helper_FlyingFlo
+  rotate: false
+  xy: 656, 459
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+helper_linesavings
+  rotate: false
+  xy: 656, 459
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+helper_blitzin
+  rotate: false
+  xy: 955, 942
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_blockade
+  rotate: false
+  xy: 951, 724
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_bomb
+  rotate: false
+  xy: 951, 663
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_bulldozer
+  rotate: false
+  xy: 93, 81
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_chargingram
+  rotate: false
+  xy: 325, 264
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_chime
+  rotate: false
+  xy: 325, 203
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_crusher
+  rotate: false
+  xy: 324, 142
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_flonase
+  rotate: false
+  xy: 324, 81
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_frostbite
+  rotate: false
+  xy: 379, 482
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_groundSwell
+  rotate: false
+  xy: 352, 421
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_instafrenzy
+  rotate: false
+  xy: 413, 421
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_julyFourth
+  rotate: false
+  xy: 352, 360
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_laser
+  rotate: false
+  xy: 413, 360
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_laser_Retro
+  rotate: false
+  xy: 386, 299
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_lucky7
+  rotate: false
+  xy: 386, 238
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_magnet
+  rotate: false
+  xy: 386, 177
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_meteor
+  rotate: false
+  xy: 385, 116
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_minovortex
+  rotate: false
+  xy: 385, 55
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_multiplyer
+  rotate: false
+  xy: 447, 299
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_multiplyer_Retro
+  rotate: false
+  xy: 447, 238
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_narrow
+  rotate: false
+  xy: 447, 177
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_nuke
+  rotate: false
+  xy: 446, 116
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_quake
+  rotate: false
+  xy: 446, 55
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_quake_Retro
+  rotate: false
+  xy: 474, 458
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_time
+  rotate: false
+  xy: 474, 397
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_time_Retro
+  rotate: false
+  xy: 535, 458
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+helper_trippleI
+  rotate: false
+  xy: 535, 397
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+nowifi_icon
+  rotate: false
+  xy: 951, 785
+  size: 68, 68
+  orig: 68, 68
   offset: 0, 0
   index: -1
